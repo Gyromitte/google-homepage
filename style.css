@@ -7,10 +7,43 @@
     justify-content: center;
     padding-top: 25px;
 }
-
 #input-field{
     width: 500px;
     height: 30px;
     border: 2px solid rgb(173, 173, 173);
     border-radius: 25px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    float: right;
+}
+a{
+    padding: 8px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.user-image{
+    width: 30px;
+    height: 30px;;
+}
+.nav-bar{
+    padding-bottom: 50px;
+}
+.search-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+button{
+    color: rgb(97, 93, 93);
+    margin: 20px;
+    background-color:rgb(241, 239, 239);
+    border: none;
+    padding: 10px;
 }
