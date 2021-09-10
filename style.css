@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .google-logo{
     display: flex;
     justify-content: center;
@@ -33,6 +36,7 @@ a{
     height: 30px;;
 }
 .nav-bar{
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 .search-buttons{
@@ -47,3 +51,21 @@ button{
     border: none;
     padding: 10px;
 }
+.footer-container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgb(230, 227, 227);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 15px;
+}
+.footer{
+    color:rgb(114, 114, 114);
+}
+.footer-right{
+    color: rgb(114, 114, 114);
+}
+
